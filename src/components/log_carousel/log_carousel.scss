@@ -1,0 +1,21 @@
+.dot{
+    color: transparent;
+    border-radius: 50%;
+    border: 2px solid #e20f80;
+    font-size: 30px;
+    height: 15px;
+    width: 15px;
+}
+
+.dot.active{
+    background-color: #e20f80;
+}
+
+p{
+    color: #e20f80;
+    font-size: 25px;
+    margin: 0;
+    margin-bottom: 35px;
+    padding: 0 22%;
+    text-align: center;
+}

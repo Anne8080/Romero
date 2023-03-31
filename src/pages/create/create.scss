@@ -1,0 +1,41 @@
+.create{
+    width: 40%;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: rgb(255, 192, 247);
+    border-radius: 30px;
+    padding: 0 5%;
+
+    .logindiv{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        
+        .logbutton{
+            width: 70%;
+        }
+    }
+    .button{
+        font-size: 20px;
+        color: #fff;
+        cursor: pointer;
+        background-color: #e20f80;
+        padding: 15px 35px;
+        border-radius: 10px;
+        text-decoration: none;
+        text-align: center;
+    }
+    .regbutton{
+        width: 100%;
+        display: block;
+        margin-top: 30px;
+    }
+    .face{
+        font-size: 30px;
+        padding: 10px 35px;
+    }
+}
+
+
+
