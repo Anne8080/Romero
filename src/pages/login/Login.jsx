@@ -6,6 +6,8 @@ import LockIcon from '@mui/icons-material/Lock';
 import Log_options from '../../components/log_options/Log_options';
 import './login.scss'
 
+// we arent using dashboard its for reference purposes
+
 
 const Login = () => {
   
@@ -15,7 +17,7 @@ const Login = () => {
         <Logo/>
         <Input title='Email or Phone Number' icon = <EmailIcon/> type='text' value='Enter Your Mail or Phone Number' />
         <Input title='Password' icon = <LockIcon/> type='password' value='Enter Your Password' />
-        <p className="forgot">Forgot Password?</p>
+        <a className="forgot">Forgot Password?</a>
         <Log_options submit='Login' have_account="Don't Have An Account?" sign_log='Sign Up' link='register'/>
       </div>
     </div>
