@@ -1,0 +1,53 @@
+Colors for the introductry part=
+background color: ECE4F0
+Next button background: A3376D
+Skip button background: 703156
+Skip/Next font color: ECE4F0
+radius fill and border color: A63569
+back arrow color: A83567
+
+colors for the login with logo:
+font color/background color: F3F4FA 
+
+colors for login/sign up pages:
+input background color: ECE4F0
+font color: A83567
+login/sign up background color: A83567
+login/sign up font color: white
+or lines: A3376D
+have an account link text color: A83567
+
+account page:
+card colors: conic-gradient(from 180deg at 50% 50%, #161118 -41.98deg, #D92533 62.21deg, #A83567 179.34deg, #161118 318.02deg, #D92533 422.21deg); 
+//just copy and paste that one or maybe I'll even do it myself
+card amount font: ECE4F0
+**6917/wifi logo: white
+mastercard logo on the card: D9D9D9
+notification button: DB97AB and font: ECE4F0 and red dot: D32639
+finance cards background: E2CADB
+finance cards circle: 3E2F3B
+view transaction history: C62B47
+red arrow font color: C62B47
+red arrow background: F4D5DA
+green arrow font color: 0FA958
+green arrow background: CFEEDE
+-1000: C62B47
++7000: 0FA958
+transaction cards background color: ECE4F0
+transaction directory: 808080
+transaction date: 808080
+footer: A83567
+recent transactions background color: E2CADB
+piggy: 0FA958
+finance: 9D3743
+savings: A1376F
++: DB97AB
+
+
+analysis:
+green bars: 36B746
+purple bars: D712D9
+week background: 42313D
+week font: ECE4F0
+month background: D9D9D9
+month font: black

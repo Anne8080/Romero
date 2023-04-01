@@ -1,0 +1,153 @@
+.account{
+    width: 40%;
+    // height: 100vh;
+    margin: 0 auto;
+    background-color: #ECE4F0;
+    padding: 1% 0;
+
+    .top{
+        padding: 0 4%;
+    }
+
+    .user_info{
+        display: flex;
+        justify-content: start;
+        
+
+        .greet{
+            padding: 0 10px;
+            width: 100%;
+            position: relative;
+
+            
+
+            #bell{
+                position: absolute;
+                top: 0;
+                right: 0;
+                background-color: #DB97AB;
+                color: #ECE4F0;
+                border-radius: 50%;
+            }
+        }
+    }
+    .greeting{
+        color: black;
+        margin: 0;
+        margin-bottom: 2px;
+        font-size: 15px;
+        padding: 0;
+        text-align: left;
+    }
+
+    .balance{
+        width: 100%;
+        position: relative;
+        margin: 4% 0;
+
+        .amount_balance{
+            margin: 4px 0;
+        }
+
+        #add{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            background-color: #DB97AB;
+            color: #ECE4F0;
+            border-radius: 50%;
+        }
+    }
+
+    .card{
+        background: conic-gradient(from 180deg at 50% 50%, #161118 -41.98deg, #D92533 62.21deg, #A83567 179.34deg, #161118 318.02deg, #D92533 422.21deg);
+        padding: 5%;
+        border-radius: 30px;
+        position: relative;
+        .credit_card{
+            color: #ECE4F0;
+            margin: 0;
+            margin-bottom: 4px;
+            font-size: 15px;
+            padding: 0;
+            text-align: left;
+        }
+        .amount_card{
+            margin: 3% 0 10% 0;
+            color: #ECE4F0;
+            font-size: 20px;
+        }
+        .card_detail{
+            color: #fff;
+            margin: 0;
+            margin-top: 10%;
+            font-size: 15px;
+            padding: 0;
+            text-align: left;
+        }
+
+        .wifi{
+            position: absolute;
+            top: 10%;
+            right: 5%;
+            transform: rotate(90deg);
+            color: #fff;
+            font-weight: 100;
+            font-size: 20px;
+        }
+        .circle{
+            position: absolute;
+            color: #D9D9D9;
+            bottom: 10%;
+            right: 5%;
+        }
+        .circletwo{
+            position: absolute;
+            color: #D9D9D9;
+            bottom: 10%;
+            right: 8%;
+        }
+    }
+    .finance{
+        margin: 4% 0;
+
+        .finance_name{
+            margin: 4% 0;
+        }
+        .finance_cards{
+            display: flex;
+            justify-content: space-between;
+
+        }
+    }
+
+    .transactions{
+        background-color: #E2CADB;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        padding: 4%;
+
+        .title_trans{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 4%;
+        }
+        .view{
+            font-size: 1em;
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+            color: #C62B47;
+        }
+    }
+
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        position: fixed;
+        bottom: 0;
+        background-color: #E2CADB;
+    }
+}

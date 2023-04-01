@@ -1,0 +1,32 @@
+.trans{
+    background-color: #ECE4F0;
+    display: flex;
+    justify-content: space-between;
+    padding: 4%;
+    border-radius: 20px;
+    margin: 2% 0;
+
+    .datetime, .ok, .dir{
+        color: #808080;
+        margin: 0;
+        margin-bottom: 4px;
+        font-size: 13px;
+        padding: 0;
+        text-align: left;
+    }
+    .ok{
+        text-align: right;
+    }
+    .neg{
+        color: #C62B47;
+        font-size: 15px;
+        text-align: right;
+        margin-bottom: 3%;
+    }
+    .pos{
+        color: #0FA958;
+        font-size: 15px;
+        text-align: right;
+        margin-bottom: 3%;
+    }
+}
