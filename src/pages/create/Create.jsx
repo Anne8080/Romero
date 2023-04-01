@@ -1,12 +1,12 @@
 import React from 'react'
-import Logo from '../../components/logo/Logo'
 import FaceIcon from '@mui/icons-material/Face';
+import logoimg from '../../images/Romero-logo.png'
 import './create.scss'
 
 const Create = () => {
   return (
     <div className='create'>
-        <Logo/>
+        <img src={logoimg} className="logoimg"></img>
         <div className="buttons">
             <div className="logindiv">
                 <a href="welcome/login" className='button logbutton'>Login</a>

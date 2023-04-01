@@ -30,7 +30,7 @@ const rightArrowStyles = {
   color: "#fff",
   zIndex: 1,
   cursor: "pointer",
-  backgroundColor: '#e20f80',
+  backgroundColor: '#A3376D', 
   padding: '15px 20px',
   borderRadius: '10px',
   textDecoration: 'none'
@@ -103,10 +103,17 @@ const Log_carousel = ({ slides }) => {
           {/* ❰ */}
           Skip
         </a>
-        <div onClick={goToPrevious} style={leftArrowStyles}>
-            {/* ❱ */}
-            ❰
-        </div>
+        {currentIndex === 0 ? 
+          <div onClick={goToPrevious} style={{display: 'none'}}>
+              {/* ❱ */}
+              ❰
+          </div>
+        :
+          <div onClick={goToPrevious} style={leftArrowStyles}>
+              {/* ❱ */}
+              ❰
+          </div>
+        }
         {currentIndex === 2 ? 
           <a href="welcome" style={rightArrowStyles}>Next</a>
         :

@@ -3,8 +3,14 @@
     height: 100vh;
     margin: 0 auto;
     background-color: rgb(255, 192, 247);
-    border-radius: 30px;
+    // border-radius: 30px;
     padding: 0 5%;
+
+    .logoimg{
+        // height: 100px;
+        // width: 100px;
+        // background: url('https://s3-alpha-sig.figma.com/img/8ed1/50c7/08ee9e6df7434bdf0cf2c34f7c44721d?Expires=1681084800&Signature=CwT8u6T0m8Tewt9mkeSgO6HD1w5JC7Ii2JxfPgnFCYzNf8JUDo4BXgURjhLLOBhfcsC8XaSAb2-KN4lZo01CqDsW1tRLnEBvACZ3miQSnsvgMqCztM8nxmr5HjSMQsoKU27wnu80Xqci8aFxxULbtl9u6GaUtm1FNR6tg4vILEkh9tJmXOFv31TP0b~bkNcz1eS~ptb~5-3vNrlyQOIBlF60w2rsbzrweQKSsJjkR6j4oDLcDuk1hdYYRWXlLpEzutXVTQgWq2yYjhk17dDaP6FmI~q3w0Yv0~3tSSScDmSCQtYnp3XlDyUcZTqYCnv-4k~9QzxX6~MtdGpRmkPqHQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+    }
 
     .logindiv{
         display: flex;

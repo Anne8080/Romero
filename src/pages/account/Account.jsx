@@ -1,4 +1,5 @@
 import React from 'react'
+import logoimg from '../../images/Romero-written-logo.png'
 import './account.scss'
 import { Avatar, backdropClasses } from '@mui/material'
 import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
@@ -30,20 +31,20 @@ const Account = () => {
         <div className="user_info">
           <Avatar
             alt="Profile picture"
-            src="../../images/Profile photo.png"
+            src={logoimg}
             sx={{ width: 40, height: 40 }}
           />
           <div className='greet'>
             <p className='greeting'>Good Afternoon,</p>
             <h3 className='name'>Alexa Prince</h3>
-            <NotificationsNoneIcon id='bell' />
+            <a href=""><NotificationsNoneIcon id='bell' /></a>
           </div>
           
         </div>
         <div className="balance">
           <p className='greeting'>Your Balance</p>
           <h3 className='amount_balance'>N 70,000.00</h3>
-          <AddIcon id='add'/>
+          <a href=""><AddIcon id='add'/></a>
         </div>
         <div className='card'>
           <p className='credit_card'>Credit Card</p>
