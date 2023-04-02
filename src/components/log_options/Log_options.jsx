@@ -1,10 +1,10 @@
 import React from 'react'
 import './log_options.scss'
 
-const Log_options = ({submit, have_account, sign_log, link}) => {
+const Log_options = ({submit, have_account, sign_log, link, loglink}) => {
   return (
     <div>
-      <input type="button" value={submit} id='submit' />
+      <a href={loglink}><input type='submit' value={submit} id='submit' /></a>
       <div id='lineor'>
         <div className='line'></div>
         <p id='or'>OR</p>

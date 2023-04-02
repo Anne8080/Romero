@@ -8,6 +8,53 @@ import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import PersonIcon from '@mui/icons-material/Person';
 import logoimg from '../../images/Romero-written-logo.png'
 import './register.scss'
+import {useState} from 'react'
+
+import axios from "axios";
+const handleSubmit = (event) => {
+    event.preventDefault();
+    axios.post('http://localhost:8080/api/user/save', inputs).then(function(response){
+        console.log(response.data);
+    });
+}
+
+const [email, getEmail]      = useState("");
+
+const [fullname,  getFullname]  = useState("");
+
+const [address, getAddress]  = useState("");
+
+const [password, getPassword]  = useState("");
+    
+const [confirm_password, getConfirm_password]  = useState("");
+
+    function isValidEmail(email) {
+        return /\S+@\S+\.\S+/.test(email);
+    }
+
+    const validate = () => {
+        if (isValidEmail(email) & country !== 'default') {
+            return email.length & country.length;
+        }
+    };
+
+
+        let fData = new FormData();
+        fData.append('email', email);
+        fData.append('fullname', fullname);
+
+        fData.append('address', address);
+
+        fData.append('password', password);
+
+        fData.append('confirm_password', confirm_password);
+        axios.post(url, fData)
+        .then(
+            response => alert(response.data)
+        )
+        .catch(
+            error => console.log(error)
+        );
 
 const Register = () => {
   return (
@@ -19,7 +66,7 @@ const Register = () => {
       <Input title='Address' icon = <PlaceIcon/> type='text' value='Enter Your Address' />
       <Input title='Password' icon = <LockIcon/> type='password' value='Enter Your Password' />
       <Input title='Confirm Password' icon = <LockIcon/> type='password' value='Confirm Your Password' />
-      <Log_options submit='Sign Up' have_account="Already Have An Account?" sign_log='Log In' link='login'/>
+      <Log_options submit='Sign Up' have_account="Already Have An Account?" sign_log='Log In' link='login' loglink='login' />
     </div>
   )
 }

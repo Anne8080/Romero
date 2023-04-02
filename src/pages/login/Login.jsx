@@ -35,7 +35,7 @@ const Login = () => {
         <Input title='Email or Phone Number' icon = <EmailIcon/> type='text' value='Enter Your Mail or Phone Number' />
         <Input title='Password' icon = <LockIcon/> type='password' value='Enter Your Password' />
         <a className="forgot">Forgot Password?</a>
-        <Log_options submit='Login' have_account="Don't Have An Account?" sign_log='Sign Up' link='register'/>
+        <Log_options submit='Login' have_account="Don't Have An Account?" sign_log='Sign Up' link='register' loglink='/users' />
       </div>
     </div>
   );
