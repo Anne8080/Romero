@@ -21,8 +21,8 @@ const Savings = () => {
         </div>
         <div style={{marginBottom:'10%', marginTop:'8%'}} >
           <Savings_goals background='#0fa957b4' title='PTA Fees' balance='100,000' days='20' per='50' />
-          <Savings_goals background='#85a1deb4' title='PTA Fees' balance='100,000' days='20' per='10' />
-          <Savings_goals background='#cd6254b4' title='PTA Fees' balance='100,000' days='20' per='89' />
+          <Savings_goals background='#85a1deb4' title='Textbook Fees' balance='40,000' days='30' per='10' />
+          <Savings_goals background='#cd6254b4' title='Personal Savings' balance='100,000' days='100' per='89' />
         </div>
         <CreateIcon className='create' />
         <ModeCommentIcon className='chat' />

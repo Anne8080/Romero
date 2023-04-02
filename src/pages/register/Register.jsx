@@ -10,51 +10,54 @@ import logoimg from '../../images/Romero-written-logo.png'
 import './register.scss'
 import {useState} from 'react'
 
-import axios from "axios";
-const handleSubmit = (event) => {
-    event.preventDefault();
-    axios.post('http://localhost:8080/api/user/save', inputs).then(function(response){
-        console.log(response.data);
-    });
-}
+// import axios from "axios";
+// const handleSubmit = (event) => {
+//     event.preventDefault();
+//     axios.post('http://localhost:8080/api/user/save', inputs).then(function(response){
+//         console.log(response.data);
+//     });
+// }
 
-const [email, getEmail]      = useState("");
+// const [email, getEmail]      = useState("");
 
-const [fullname,  getFullname]  = useState("");
+// const [fullname,  getFullname]  = useState("");
 
-const [address, getAddress]  = useState("");
+// const [address, getAddress]  = useState("");
 
-const [password, getPassword]  = useState("");
+// const [password, getPassword]  = useState("");
     
-const [confirm_password, getConfirm_password]  = useState("");
+// const [confirm_password, getConfirm_password]  = useState("");
 
-    function isValidEmail(email) {
-        return /\S+@\S+\.\S+/.test(email);
-    }
+//     function isValidEmail(email) {
+//         return /\S+@\S+\.\S+/.test(email);
+//     }
 
-    const validate = () => {
-        if (isValidEmail(email) & country !== 'default') {
-            return email.length & country.length;
-        }
-    };
+//     const validate = () => {
+//         if (isValidEmail(email) & country !== 'default') {
+//             return email.length & country.length;
+//         }
+//     };
 
+//     const handleSubmit = () => {
+//         // const url = "URL_TO_PHP_script";
 
-        let fData = new FormData();
-        fData.append('email', email);
-        fData.append('fullname', fullname);
+//         let fData = new FormData();
+//         fData.append('email', email);
+//         fData.append('fullname', fullname);
 
-        fData.append('address', address);
+//       fData.append('address', address);
 
-        fData.append('password', password);
+//       fData.append('password', password);
 
-        fData.append('confirm_password', confirm_password);
-        axios.post(url, fData)
-        .then(
-            response => alert(response.data)
-        )
-        .catch(
-            error => console.log(error)
-        );
+//       fData.append('confirm_password', confirm_password);
+//         axios.post(url, fData)
+//         .then(
+//             response => alert(response.data)
+//         )
+//         .catch(
+//             error => console.log(error)
+//         );
+//     }
 
 const Register = () => {
   return (
