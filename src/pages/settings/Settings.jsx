@@ -3,7 +3,9 @@ import './settings.scss'
 
 const Settings = () => {
   return (
-    <div>Settings</div>
+    <div>
+      
+    </div>
   )
 }
 

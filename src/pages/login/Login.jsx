@@ -7,6 +7,8 @@ import logoimg from '../../images/Romero-written-logo.png'
 import './login.scss'
 
 // we arent using dashboard its for reference purposes
+// which dashboard
+// unfocus me pls
 
 
 const Login = () => {

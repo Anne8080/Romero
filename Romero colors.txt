@@ -10,6 +10,8 @@ colors for the login with logo:
 font color/background color: F3F4FA 
 
 colors for login/sign up pages:
+background: ECE4F0
+background fill: A83567 15%
 input background color: ECE4F0
 font color: A83567
 login/sign up background color: A83567
@@ -51,3 +53,18 @@ week background: 42313D
 week font: ECE4F0
 month background: D9D9D9
 month font: black
+
+
+savings:
+background: ECE4F0
+font family: inter
+% background: ECE4F0
+background pta: 0FA958 30% opacity
+pig: 0FA958
+vase: 263238
+icon textbook colors:407BFF
+background textbook: 85A1DE 30%
+background personal: CD6254 30%
+icon savings: FF725E FF9A6C AE7461 grey: E0E0E0 EBEBEB
+create new background: A83567
+create new icon: ECE4F0

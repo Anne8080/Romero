@@ -1,5 +1,5 @@
 import React from 'react'
-import logoimg from '../../images/Romero-written-logo.png'
+import logoimg from '../../images/Profile-photo.png'
 import './account.scss'
 import { Avatar, backdropClasses } from '@mui/material'
 import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
@@ -78,7 +78,7 @@ const Account = () => {
       <div className="footer">
         <a href=""><HomeIcon style={footer_style}/></a>
         <a href=""><PaymentIcon style={footer_style}/></a>
-        <a href=""><SavingsIcon style={footer_style}/></a>
+        <a href="users/savings"><SavingsIcon style={footer_style}/></a>
         <a href=""><SettingsIcon style={footer_style}/></a>
         <a href=""><WidgetsIcon style={footer_style}/></a>
       </div>

@@ -16,6 +16,7 @@ import{
 import Login from './pages/login/Login';
 import Create from './pages/create/Create';
 import Register from './pages/register/Register';
+import Savings from './pages/savings/Savings';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
             </Route>
             <Route path="users">
               <Route index element={<Account/>}/>
+              <Route path="savings" element={<Savings/>}/>
               <Route path="transaction" element={<Transaction/>}/>
               <Route path="settings" element={<Settings/>}/>
             </Route>

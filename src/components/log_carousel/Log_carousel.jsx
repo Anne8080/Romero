@@ -16,7 +16,7 @@ const leftArrowStyles ={
   transform: "translate(0, -50%)",
   left: "32px",
   fontSize: "20px",
-  color: "#e20f80",
+  color: "#A83567",
   zIndex: 1,
   cursor: "pointer",
 }
@@ -45,7 +45,7 @@ const skipArrowStyles = {
   color: "#fff",
   zIndex: 1,
   cursor: "pointer",
-  backgroundColor: '#88265a',
+  backgroundColor: '#703156',
   padding: '15px 20px',
   borderRadius: '10px',
   textDecoration: 'none'
@@ -91,10 +91,12 @@ const Log_carousel = ({ slides }) => {
   };
   const slideStylesWidthBackground = {
     ...slideStyles,
-    backgroundImage: `url(${slides[currentIndex].url})`,
+    // backgroundImage: `url(${slides[currentIndex].url})`,
     position: 'absolute',
     height: '70%',
   };
+
+  
 
   return (
     <div style={sliderStyles}>
@@ -124,6 +126,7 @@ const Log_carousel = ({ slides }) => {
         }
       </div>
       <div style={slideStylesWidthBackground}>
+        <div className="imgcar">{slides[currentIndex].url}</div>
         <p className="title">{slides[currentIndex].title}</p>
         <div style={dotsContainerStyles}>
           {slides.map((slide, slideIndex) => (
