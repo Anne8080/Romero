@@ -13,10 +13,12 @@ const Trans_cards = ({icon, date, time, amount, dir, Neg}) => {
   }
   return (
     <div className='trans'>
-      {icon}
-      <div>
-        <p className="datetime">{date} {time}</p>
-        <p className="dir">{dir}</p>
+      <div className="transicon">
+        {icon}
+        <div style={{marginLeft: '8%'}} >
+          <p className="datetime">{date} {time}</p>
+          <p className="dir">{dir}</p>
+        </div>
       </div>
       <div>
         <h3 className={style}>{sign}{amount}</h3>

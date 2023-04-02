@@ -1,4 +1,43 @@
 .savings_goals{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 3% 5%;
+    margin: 3% 15%;
+    border-radius: 10px;
+
+    .money{
+        font-size: 100px;
+        text-align: left;
+    }
+
+    .titlesave{
+        font-size: 18px;
+        margin-bottom: 15%;
+    }
+
+    .days{
+        margin-top: 5%;
+    }
+    
+    input[type="range"]{
+        -webkit-appearance: none;
+        border: none;
+        border-radius: 20px;
+        background: #ECE4F0;
+        outline: none;
+        height: 4px;
+        /* margin: 0 15px; */
+        padding: 50;
+
+    }
+
+    input[type="range"]::-webkit-slider-thumb{
+        -webkit-appearance: none;
+        height: 5px;
+        width: 5px;
+        background: #0FA958 ;
+        border-radius: 50%;
+        /* opacity: 0;
+        transition: opacity 0.2s ease; */
+    }
 }

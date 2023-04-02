@@ -1,11 +1,11 @@
 import React from 'react'
 import './finance_cards.scss'
 
-const Finance_cards = ({icon, title}) => {
+const Finance_cards = ({icon, title, link}) => {
   return (
     <div className='cards' >
             {icon}
-            <a href="" className="title">
+            <a href={link} className="title">
                 {title}
             </a>
     </div>

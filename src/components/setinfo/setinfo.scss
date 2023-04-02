@@ -1,0 +1,37 @@
+.setinfo{
+    color: #A83567;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3%;
+    margin-top: 3%;
+    
+
+    .infoset{
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+        width: 90%;
+
+        
+        
+        .settitle{
+            color: #8a8a8a;
+            padding: 0 0 2% 5%;
+        }
+        .setdetail{
+            color: black;
+
+        }
+    }
+    a{
+        color: #A83567;
+        text-decoration: none;
+    }
+}
+.pline{
+    width: 100%;
+    box-shadow: 0 3px 5px grey;
+    border-bottom: 1px solid white;
+    // background-color: white;
+}

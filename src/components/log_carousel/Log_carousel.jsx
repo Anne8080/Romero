@@ -132,7 +132,7 @@ const Log_carousel = ({ slides }) => {
           {slides.map((slide, slideIndex) => (
             <div
               style={dotStyle}
-              key={slideIndex}
+              key={slideIndex} 
               onClick={() => goToSlide(slideIndex)}
               className={currentIndex === slideIndex? "dot active" : "dot"}
             >

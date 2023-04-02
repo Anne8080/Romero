@@ -5,6 +5,14 @@
     padding: 4%;
     border-radius: 20px;
     margin: 2% 0;
+    cursor: pointer;
+
+    .transicon{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 80%;
+    }
 
     .datetime, .ok, .dir{
         color: #808080;

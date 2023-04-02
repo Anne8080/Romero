@@ -4,10 +4,56 @@
     margin: 0 auto;
     background-color: #ECE4F0;
     // border-radius: 30px;
-    padding: 0 5%;
+    padding: 0;
+    position: relative;
+
+    .savtitle{
+        text-align: center;
+        padding-top: 5%;
+    }
+
+    .savingshead{
+        font-size: 35px;
+    }
+    
+    .savings_pad{
+        padding: 5% 0;
+    }
 
     .arrow_back{
         text-decoration: none;
         color: #A83567;
+        position: absolute;
+        left: 10%;
+    }
+    
+
+    .create{
+        color: #ECE4F0;
+        position: fixed;
+        bottom: 10.7%;
+        right: 35.1%;
+        cursor: pointer;
+        font-size: 40px;
+        z-index: 1;
+        padding: 0;
+        background-color: #A83567;
+        padding: 5px;
+        border-radius: 50%;
+    }
+
+    .chat{
+        color: #A83567;
+        position: fixed;
+        bottom: 10%;
+        right: 35%;
+        cursor: pointer;
+        font-size: 40px;
+    }
+
+    .footer_save{
+        position: fixed;
+        bottom: 0;
+        background-color: #E2CADB;
     }
 }
